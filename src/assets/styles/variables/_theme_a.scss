@@ -1,0 +1,48 @@
+/*Colors*/
+$layout-dark: #23272B;
+$layout-medium: #2E3439;
+$layout-light: #394147;
+
+$text-medium: #a0a9b1;
+$text-dark: darken($text-medium, 15%);
+$text-light: lighten($text-medium, 10%);
+
+$chart-main: #758df8;
+$chart-dark: #495569;
+
+$chart-medium: #A0B0B6;
+$chart-light: #41C3F9;
+
+$yellow: #d5c723;
+$green: #4accc3;
+$purple: #758df8;
+$blue: #318DCE;
+$red: #C14848;
+
+$sider-selected: #394147;
+
+
+/*Shadows*/
+$main-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1), 
+              0 -1px 0 rgba(0, 0, 0, 0.03);
+
+/*Borders*/
+$main-border-color: rgba(255, 255, 255, 0.1); 
+
+:export {
+  layoutDark: $layout-dark;
+  layoutMedium: $layout-medium;
+  layoutLight: $layout-light;
+  textDark: $text-dark;
+  textMedium: $text-medium;
+  textLight: $text-light;
+  chartMain: $chart-main;
+  chartDark: $chart-dark;
+  chartMedium: $chart-medium;
+  chartLight: $chart-light;
+  yellow: $yellow;
+  green: $green;
+  blue: $blue;
+  purple: $purple;
+  red: $red;
+}

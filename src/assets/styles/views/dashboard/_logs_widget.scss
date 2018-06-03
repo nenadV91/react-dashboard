@@ -1,0 +1,33 @@
+.logs-widget {
+  .ant-timeline {
+    color: $text-medium;
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    .ant-timeline-item-tail {
+      border-left: 2px solid $main-border-color;
+      left: 3px;
+      top: 0.25em;
+    }
+
+    .ant-timeline-item-head {
+      border-color: $purple;
+      background-color: $layout-medium;
+      width: 8px;
+      height: 8px;
+    }
+
+    .logs-item {
+      .logs-item-date {
+        color: darken($text-dark, 20%);
+        font-size: 10px;
+      }
+
+      .logs-item-text {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

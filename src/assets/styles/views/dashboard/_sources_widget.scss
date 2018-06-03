@@ -1,0 +1,44 @@
+.sources-widget {
+  .chart-container {
+    height: 290px;
+    padding: 15px;
+  }
+
+  .widget-header {
+    .time-button {
+      margin-left: auto;
+      text-transform: capitalize;
+      background: lighten($layout-medium, 10%);
+      color: $text-light;
+      border: none;
+    }
+  }
+
+  @media(min-width: 992px) {
+    .ant-table {
+      margin-top: 25px;
+    }
+  }
+
+  .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th {
+    background: transparent;
+    color: $text-medium;
+  }
+
+  .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr > td,
+  .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th {
+    border-bottom: 1px solid $main-border-color;
+  }
+
+  .ant-table-small {
+    border: none;
+  }
+
+  .ant-table {
+    color: $text-medium;
+  }
+
+  .ant-table-tbody > tr:hover > td {
+    background: lighten($layout-medium, 5%);
+  }
+}

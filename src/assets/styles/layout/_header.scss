@@ -1,0 +1,27 @@
+.ant-layout-header {
+	height: 54px;
+	line-height: 54px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  z-index: 3;
+  
+  background: $layout-medium;
+  box-shadow: $main-shadow;
+
+	.trigger {
+		margin-left: 15px;
+		cursor: pointer;
+	}
+
+  .header-menu {
+    border-bottom: none;
+    display: flex;
+
+    .header-menu-item {
+      padding: 0 20px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+  }
+}

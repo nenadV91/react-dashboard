@@ -1,0 +1,20 @@
+#geo-chart {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.progress-element {
+  .ant-progress-inner {
+    height: 2px;
+
+    .ant-progress-bg {
+      height: 2px !important;
+      background: $chart-main;
+    }
+  }
+
+  .ant-progress-text {
+    color: $text-dark;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,30 @@
+.contacts-widget {
+  padding-right: 15px;
+  
+  .ant-list-item {
+    border-bottom: 1px solid $main-border-color;
+    padding: 6px 0;
+
+    &:first-child {
+      padding-top: 0
+    }
+  }
+
+  .ant-list-item-meta {
+    align-items: center;
+
+    .ant-list-item-meta-title div {
+      color: $text-medium;
+      font-size: 12px;
+    }
+
+    .ant-list-item-meta-description {
+      color: $text-dark;
+
+      .phone, .email, .address {
+        font-size: 12px;
+        line-height: 1.4;
+      }
+    }
+  }
+}

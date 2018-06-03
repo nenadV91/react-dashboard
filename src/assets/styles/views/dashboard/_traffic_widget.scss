@@ -1,0 +1,26 @@
+.traffic-widget {
+  .widget-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .chart-container {
+    height: 290px;
+    padding: 35px 35px 20px;
+  }
+
+  .traffic-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &-item {
+      text-align: center;
+
+      &-value {
+        font-size: 30px;
+      }
+    }
+  }
+}

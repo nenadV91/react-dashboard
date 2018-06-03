@@ -1,0 +1,17 @@
+@import "variables/variables.scss";
+@import "core/base.scss";
+
+@import "layout/header.scss";
+@import "layout/sider.scss";
+@import "layout/content.scss";
+
+@import "components/widget.scss";
+@import "components/load_more.scss";
+
+
+@import "views/dashboard/stats_widget.scss";
+@import "views/dashboard/geo_widget.scss";
+@import "views/dashboard/logs_widget.scss";
+@import "views/dashboard/traffic_widget.scss";
+@import "views/dashboard/contacts_widget.scss";
+@import "views/dashboard/sources_widget.scss";

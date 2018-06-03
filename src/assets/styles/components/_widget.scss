@@ -1,0 +1,32 @@
+.widget {
+  background: $layout-medium;
+  box-shadow: $main-shadow;
+  margin-bottom: 15px;
+
+  &-header {
+    padding: 10px;
+
+    &:not(.no-background) {
+      background: $layout-light;
+    }
+  }
+
+  &-body {
+    padding: 10px;
+  }
+
+  &-title {
+    color: $text-light;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  &-subtitle {
+    color: darken($text-medium, 15%);
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $text-medium;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: lighten($text-medium, 15%);
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+
+  &.align {
+    &-center {
+      align-items: center;
+    }
+
+    &.-end {
+      align-items: flex-end;
+    }
+  }
+
+  &.justify {
+    &-center {
+      justify-content: center;
+    }
+
+    &-end {
+      justify-content: flex-end;
+    }
+  }
+  
+}
+
+.ant-switch-checked {
+  background-color: #454e55;
+}

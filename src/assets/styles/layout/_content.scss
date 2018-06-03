@@ -1,0 +1,19 @@
+.main-layout {
+  background: $layout-dark;
+  min-height: 100vh;
+
+  .main-content {
+    margin: 24px 16px 0;
+  }
+}
+
+@media(max-width: 1200px) {
+  .app-layout {
+    overflow-x: hidden;
+  }
+  
+  .main-layout {
+    width: calc(100% - 64px);
+    flex-shrink: 0;
+  }
+}

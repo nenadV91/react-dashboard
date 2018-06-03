@@ -1,0 +1,18 @@
+- Layout variables and colors  Done
+- Routes                       Done
+- Navbar logo                  Done
+
+
+- Dashboard Widget
+  - Component                  Done
+  - Style                      Done
+
+
+-Dashboard                     Done
+  -Stats                       Done
+  -Geo                         Done
+  -Contacts                    Done
+  -Timeline                    Done
+  -Radar                       Done
+
+-Users
