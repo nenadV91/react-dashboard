@@ -22,7 +22,7 @@ class SourcesWidget extends Component {
     const menu = (
       <Menu>
         {Object.keys(this.props.data).map(time => (
-          <Menu.Item>
+          <Menu.Item key={time}>
             <div style={{textTransform: "capitalize"}}
             onClick={() => this.set(time)}>{time}</div>
           </Menu.Item>

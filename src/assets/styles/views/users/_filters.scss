@@ -1,0 +1,61 @@
+.filters-widget {
+  .title {
+    color: $text-dark;
+  }
+
+  .filters-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+    &-title {
+      margin-right: 10px;
+      color: $text-medium;
+    }
+
+    &-element {
+      flex: 1;
+    }
+  }
+
+  .filter-slider {
+    .ant-slider-rail {
+      height: 2px;
+      background: $chart-dark;
+    }
+
+    .ant-slider-track {
+      height: 2px;
+      background: $chart-main;
+    }
+
+    .ant-slider-handle {
+      height: 12px;
+      width: 12px;
+      background: $chart-main;
+      border: none;
+    }
+  }
+
+  .ant-radio-wrapper {
+    .ant-radio-inner {
+      background: $chart-dark;
+      border: none;
+
+      &:after {
+        height: inherit;
+        width: inherit;
+        top: 0;
+        left: 0;
+        background: $chart-main;
+        border: none;
+
+      }
+    }
+
+    span {
+      color: $text-medium;
+      font-size: 12px;
+    }
+  }
+}

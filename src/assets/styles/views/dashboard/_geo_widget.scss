@@ -6,6 +6,7 @@
 .progress-element {
   .ant-progress-inner {
     height: 2px;
+    background: $chart-dark;
 
     .ant-progress-bg {
       height: 2px !important;

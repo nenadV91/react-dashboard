@@ -1,0 +1,48 @@
+.user-stat {
+  .title {
+    color: $text-dark;
+  }
+
+  .value-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 15px;
+    }
+
+    .value {
+      font-size: 46px;
+      font-weight: 100;
+      font-family: $font-light;
+    }
+
+    .change {
+      color: $text-dark;
+      font-size: 16px;
+    }
+
+    i {
+      font-size: 30px;
+      color: $chart-main;
+    }
+  }
+
+  .ant-progress-circle-path {
+    stroke: $chart-main;
+  }
+
+  .ant-progress-circle-trail {
+    stroke: $chart-dark;
+  }
+
+  .ant-progress-text {
+    color: $text-dark;
+    font-size: 16px;
+    font-family: $font-main;
+  }
+}

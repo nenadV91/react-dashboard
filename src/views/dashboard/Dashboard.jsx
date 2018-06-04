@@ -44,9 +44,7 @@ class Dashboard extends Component {
           </Col>
         </Row>
 
-
         <GeoWidget />
-
 
         <Row gutter={16}>
           <Col md={{span: 10}}>
@@ -58,7 +56,6 @@ class Dashboard extends Component {
           </Col>
         </Row>
 
-
         <Row gutter={16}>
           <Col md={{span: 14}}>
             <SourcesWidget data={traffic_sources} />
@@ -68,7 +65,6 @@ class Dashboard extends Component {
             <ContactsWidget data={contacts} />
           </Col>
         </Row>
-
       </div>
     );
   }

@@ -1,0 +1,21 @@
+.search-widget {
+  input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid $text-dark;
+    color: $text-dark;
+    border-radius: 0;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    @include placeholder {
+      color: $text-dark;
+    }
+  }
+
+  i {
+    color: $text-dark;
+  }
+}

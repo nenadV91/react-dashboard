@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-main;
   color: $text-medium;
   font-weight: 300;
 }
@@ -54,4 +56,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .ant-switch-checked {
   background-color: #454e55;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
 }

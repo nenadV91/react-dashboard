@@ -1,7 +1,9 @@
 /*Colors*/
 $layout-dark: #23272B;
 $layout-medium: #2E3439;
-$layout-light: #394147;
+// $layout-light: darken(#454E55, 5%);
+$layout-light: lighten(#2E3439, 2%);
+
 
 $text-medium: #a0a9b1;
 $text-dark: darken($text-medium, 15%);
@@ -19,7 +21,7 @@ $purple: #758df8;
 $blue: #318DCE;
 $red: #C14848;
 
-$sider-selected: #394147;
+$sider-selected: lighten(#2E3439, 2%);
 
 
 /*Shadows*/
