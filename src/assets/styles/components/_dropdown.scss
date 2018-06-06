@@ -1,0 +1,20 @@
+.ant-dropdown-menu {
+  background: $layout-light;
+
+  .ant-dropdown-menu-item-divider {
+    background: lighten($layout-light, 3%);
+  }
+  
+  .ant-dropdown-menu-item,
+  .ant-dropdown-menu-item > a, 
+  .ant-dropdown-menu-submenu-title > a {
+    color: $text-medium;
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+
+  .ant-dropdown-menu-item:hover, 
+  .ant-dropdown-menu-submenu-title:hover {
+    background: lighten($layout-light, 3%);
+  }
+}
