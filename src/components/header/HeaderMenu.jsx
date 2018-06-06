@@ -19,7 +19,8 @@ class HeaderMenu extends Component {
 }
 
 HeaderMenu.Item = props => {
-  return <div className="header-menu-item">
+  return <div onClick={props.onClick} 
+  className="header-menu-item">
     {props.children}
   </div>
 }

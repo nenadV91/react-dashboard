@@ -1,0 +1,13 @@
+.ant-tabs {
+  .ant-tabs-bar {
+    border-bottom: 1px solid $layout-light;
+  }
+
+  .ant-tabs-nav .ant-tabs-tab {
+    color: $text-medium;
+  }
+
+  .ant-tabs-content > .ant-tabs-tabpane {
+    color: $text-medium;
+  }
+}

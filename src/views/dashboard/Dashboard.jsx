@@ -8,8 +8,8 @@ import {
   traffic_daily,
   traffic_sources
 } from 'utils/dashboard_data';
-import moment from 'moment';
 
+import WelcomeWidget from './widgets/WelcomeWidget';
 import StatsWidget from './widgets/StatsWidget';
 import GeoWidget from './widgets/GeoWidget';
 import LogsWidget from './widgets/LogsWidget';
@@ -24,11 +24,8 @@ class Dashboard extends Component {
     return (
       <div className="dashboard">
         <Row align="middle" gutter={16}>
-          <Col className="stats-widget-first" sm={{span: 12}} lg={{span: 6}}>
-            <div>
-              <h3>{user.name}<br/>Welcome back!</h3>
-              <div>Overview for {moment().format("MMM Do YY")}</div>
-            </div>
+          <Col sm={{span: 12}} lg={{span: 6}}>
+            <WelcomeWidget user={user} />
           </Col>
 
           <Col sm={{span: 12}} lg={{span: 6}}>

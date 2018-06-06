@@ -4,6 +4,11 @@
 
   .main-content {
     margin: 24px 16px 0;
+    margin-top: 70px;
+    
+    @media(min-width: 992px) {
+      margin-left: 80px;
+    }
   }
 }
 

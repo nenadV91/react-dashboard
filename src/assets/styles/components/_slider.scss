@@ -1,0 +1,16 @@
+.ant-slider-rail {
+  height: 2px;
+  background: $chart-dark;
+}
+
+.ant-slider-track {
+  height: 2px;
+  background: $chart-main;
+}
+
+.ant-slider-handle {
+  height: 12px;
+  width: 12px;
+  background: $chart-main;
+  border: none;
+}

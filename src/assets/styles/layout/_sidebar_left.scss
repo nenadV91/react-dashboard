@@ -3,6 +3,10 @@
   background: $layout-medium;
   box-shadow: $main-shadow;
 
+  position: fixed;
+  min-height: 100vh;
+  padding-top: 54px;
+
   .ant-menu-dark {
     background:  $layout-medium;
 

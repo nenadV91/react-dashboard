@@ -1,0 +1,36 @@
+.profile-menu {
+  background: $layout-medium;
+
+  .ant-dropdown-menu-item-divider {
+    background: $layout-light;
+  }
+  
+  .ant-dropdown-menu-item,
+  .ant-dropdown-menu-item > a, 
+  .ant-dropdown-menu-submenu-title > a {
+    color: $text-medium;
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+
+  .ant-dropdown-menu-item:hover, 
+  .ant-dropdown-menu-submenu-title:hover {
+    background: $layout-light;
+  }
+
+  .user-name {
+    color: $text-light;
+  }
+
+  .user-email {
+    color: $text-dark;
+    font-size: 12px;
+  }
+
+  .logout {
+    i {
+      margin-right: 10px;
+      font-size: 12px;
+    }
+  }
+}

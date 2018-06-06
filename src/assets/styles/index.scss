@@ -1,12 +1,23 @@
 @import "variables/variables.scss";
 @import "core/base.scss";
 
-@import "layout/header.scss";
-@import "layout/sider.scss";
+@import "layout/navbar.scss";
+@import "layout/_sidebar_left.scss";
+@import "layout/_sidebar_right.scss";
 @import "layout/content.scss";
+@import "layout/navbar/profile.scss";
+
+@import "layout/sidebar/tabs.scss";
+@import "layout/sidebar/inbox.scss";
+@import "layout/sidebar/alerts.scss";
+
 
 @import "components/widget.scss";
 @import "components/load_more.scss";
+@import "components/slider.scss";
+@import "components/radio.scss";
+
+
 
 
 @import "views/dashboard/stats_widget.scss";

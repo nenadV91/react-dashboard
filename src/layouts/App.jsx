@@ -2,33 +2,57 @@ import React, { Component } from 'react';
 import { Layout} from 'antd';
 import { Route, withRouter, Switch } from 'react-router-dom';
 
-import Header from './Header';
-import Sidebar from './Sidebar';
+import Navbar from './Navbar';
+import LeftSidebar from './SidebarLeft';
+import RightSidebar from './SidebarRight';
+
 import routes from 'routes';
+import data from 'utils/sidebar_data'
 
 const { Content } = Layout;
 
 class App extends Component {
   state = {
-    collapsed: true,
-  };
+      leftSidebar: true,
+      rightSidebar: false
+    }
 
-  toggle = () => {
+  toggleLeftMenu = () => {
     this.setState({
-      collapsed: !this.state.collapsed,
+      leftSidebar: !this.state.leftSidebar,
     });
-  };
+  }
+
+  handleStateChange = (state) => {
+    this.setState({rightSidebar: state.isOpen})  
+  }
+  
+  closeRightMenu = () => {
+    this.setState({rightSidebar: false})
+  }
+
+  toggleRightMenu = () => {
+    this.setState({rightSidebar: !this.state.rightSidebar})
+  }
 
   render() {
     const {pathname} = this.props.location;
     const route = pathname.split('/').pop();
 
     return (
-      <Layout className="app-layout" hasSider={true}>
-        <Sidebar collapsed={this.state.collapsed} route={route} />
+      <Layout id="outer-container" className="app-layout" hasSider={true}>
+        <LeftSidebar collapsed={this.state.leftSidebar} route={route} />
+        <RightSidebar 
+        data={data}
+        closeRightMenu={this.closeRightMenu}
+        toggleRightMenu={this.toggleRightMenu}
+        handleStateChange={this.handleStateChange} 
+        isOpen={this.state.rightSidebar} />
 
-        <Layout className="main-layout">
-          <Header toggle={this.toggle} />
+        <Layout id="page-wrap" className="main-layout">
+          <Navbar 
+          toggleMenu={this.toggleRightMenu}
+          toggle={this.toggleLeftMenu} />
 
           <Content className="main-content">
             <Switch>

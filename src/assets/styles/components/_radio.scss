@@ -1,0 +1,21 @@
+.ant-radio-wrapper {
+  .ant-radio-inner {
+    background: $chart-dark;
+    border: none;
+
+    &:after {
+      height: inherit;
+      width: inherit;
+      top: 0;
+      left: 0;
+      background: $chart-main;
+      border: none;
+
+    }
+  }
+
+  span {
+    color: $text-medium;
+    font-size: 12px;
+  }
+}

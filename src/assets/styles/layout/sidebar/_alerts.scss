@@ -1,0 +1,57 @@
+.alerts {
+  .alert-header {
+    margin: 0 5px;
+    padding: 10px;
+    background: $layout-light;
+
+    > span {
+      margin-right: 10px;
+    }
+  }
+
+  .alerts-item {
+    font-size: 12px;
+    padding: 10px;
+    border-bottom: 1px solid $layout-light;
+    background: $layout-light;
+    margin: 5px;
+    display: flex;
+
+    &-icon {
+      padding-top: 6px;
+    }
+
+    &-content {
+      margin-left: 5px;
+    }
+
+    .top {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    &-title {
+      color: $text-light;
+    }
+
+    &-time {
+      color: $text-dark;
+      margin-left: 10px;
+      font-size: 10px;
+    }
+  }
+
+  .icon-circle {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+
+    &.urgent {
+      background: $red;
+    }
+
+    &.normal {
+      background: $purple;
+    }
+  }
+}

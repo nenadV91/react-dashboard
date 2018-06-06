@@ -49,15 +49,20 @@ class UsersTable extends Component {
           height: 20
         }
 
-        const style = { 
-          fill: colors.chartMain,
-          maxWidth: 250, 
-          width: 1
+        const chartStyle = { 
+          fill: colors.chartMain
         }
 
-        return <Sparklines {...sparkProps}>
-          <SparklinesLine style={style} />
-        </Sparklines>
+        const style = {
+          maxWidth: 200,
+          minWidth: 100
+        }
+
+        return <div style={style}>
+          <Sparklines {...sparkProps}>
+            <SparklinesLine style={chartStyle} />
+          </Sparklines>
+        </div> 
       }
     }, {
       title: 'Balance',

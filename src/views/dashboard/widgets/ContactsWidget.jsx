@@ -34,7 +34,7 @@ class ContactsWidget extends Component {
         </Widget.Header>
 
         <Widget.Body>
-          <Scrollbars style={{ height: 310 }}>
+          <Scrollbars className="scroll-element" style={{ height: 310 }}>
             <ContactItems data={this.show(this.state.length)} />
             <LoadMore 
             loadMore={this.loadMore}

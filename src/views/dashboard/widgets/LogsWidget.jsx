@@ -36,7 +36,7 @@ class LogsWidget extends Component {
         </Widget.Header>
 
         <Widget.Body>
-          <Scrollbars style={{height: 350}}>
+          <Scrollbars className="scroll-element" style={{height: 350}}>
             <Timeline style={{padding: "10px 15px 10px 0"}}>
               <LogsItems data={this.show(this.state.length)} />
               <LoadMore 
