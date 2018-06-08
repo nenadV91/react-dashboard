@@ -1,7 +1,6 @@
 /*Colors*/
 $layout-dark: #23272B;
 $layout-medium: #2E3439;
-// $layout-light: darken(#454E55, 5%);
 $layout-light: lighten(#2E3439, 2%);
 
 
@@ -31,6 +30,10 @@ $main-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1),
 /*Borders*/
 $main-border-color: rgba(255, 255, 255, 0.1); 
 
+/*Map style*/
+/*Options: Siver Dark Night Blue*/
+$map-theme: silver;
+
 :export {
   layoutDark: $layout-dark;
   layoutMedium: $layout-medium;
@@ -47,4 +50,5 @@ $main-border-color: rgba(255, 255, 255, 0.1);
   blue: $blue;
   purple: $purple;
   red: $red;
+  mapTheme: $map-theme;
 }

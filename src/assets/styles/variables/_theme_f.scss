@@ -1,16 +1,17 @@
 /*Colors*/
-$layout-dark: #F8F8F8;
-$layout-medium: #FFFFFF;
-$layout-light: darken(#F8F8F8, 1%);
+$layout-dark: #1f2f39;
+$layout-medium: #233440;
+$layout-light: #2a3c48;
 
-$text-medium: darken(#6b7989, 15%);
-$text-dark: darken($text-medium, 5%);
-$text-light: darken(#788696, 15%);
 
-$chart-main: #758df8;
-$chart-dark: #495569;
+$text-medium: #a0a9b1;
+$text-dark: darken($text-medium, 15%);
+$text-light: lighten($text-medium, 10%);
 
-$chart-medium: #A0B0B6;
+$chart-main: #166e7d;
+$chart-dark: #5c8cab;
+
+$chart-medium: #166e7d;
 $chart-light: #41C3F9;
 
 $yellow: #d5c723;
@@ -19,18 +20,19 @@ $purple: #758df8;
 $blue: #318DCE;
 $red: #C14848;
 
-$sider-selected: #F0F0F0;
+$sider-selected: #2a3c48;
+
 
 /*Shadows*/
 $main-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1), 
               0 -1px 0 rgba(0, 0, 0, 0.03);
 
 /*Borders*/
-$main-border-color: rgba(0, 0, 0, 0.1); 
+$main-border-color: rgba(255, 255, 255, 0.1); 
 
 /*Map style*/
 /*Options: Siver Dark Night Blue*/
-$map-theme: silver;
+$map-theme: normal;
 
 :export {
   layoutDark: $layout-dark;

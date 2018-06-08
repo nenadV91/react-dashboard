@@ -3,8 +3,9 @@
   min-height: 100vh;
 
   .main-content {
-    margin: 24px 16px 0;
+    margin: 24px 16px 15px;
     margin-top: 70px;
+    flex: 1;
     
     @media(min-width: 992px) {
       margin-left: 80px;

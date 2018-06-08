@@ -5,6 +5,7 @@ import {
   SparklinesLine, 
 } from 'react-sparklines';
 import { colors } from 'utils';
+import { Light } from 'components';
 
 
 class UsersTable extends Component {
@@ -29,9 +30,7 @@ class UsersTable extends Component {
       dataIndex: 'isActive',
       key: 'isActive',
       render: value => {
-        return value ? 
-          <div className="icon-active"></div> :
-          <div className="icon-not-active"></div>
+        return <Light active={value} />
       }
     }, {
       title: 'Age',

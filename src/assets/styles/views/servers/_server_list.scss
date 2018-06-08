@@ -1,0 +1,52 @@
+.server-list {
+  &-item {
+    padding: 10px;
+    background: $layout-medium;
+    transition: all 0.2s ease-in;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background: $layout-light;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .light-icon {
+      margin-right: 20px;
+    }
+
+    .top {
+      border-bottom: 1px solid $layout-light;
+      padding-bottom: 5px;
+    }
+    
+    .content {
+      padding-top: 5px;
+
+      .content-item {
+        display: flex;
+        font-size: 12px;
+
+        .label {
+          color: $text-dark;
+          margin-right: 15px;
+        }
+
+        .value {
+          color: $text-light;
+
+          span {
+            color: $text-dark;
+            font-size: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

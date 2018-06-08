@@ -17,7 +17,8 @@
 @import "components/slider.scss";
 @import "components/radio.scss";
 @import "components/dropdown.scss";
-
+@import "components/progress.scss";
+@import "components/light.scss";
 
 
 @import "views/dashboard/stats_widget.scss";
@@ -34,4 +35,7 @@
 @import "views/users/filters.scss";
 
 
+@import "views/servers/map.scss";
+@import "views/servers/stats.scss";
+@import "views/servers/server_list.scss";
 

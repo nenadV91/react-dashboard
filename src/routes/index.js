@@ -1,5 +1,6 @@
 import {
   Dashboard,
+  Servers,
   Users
 } from "views";
 
@@ -15,4 +16,10 @@ export default [{
   exact: true,
   path: "/users",
   icon: "user"
+}, {
+  text: "Servers",
+  component: Servers,
+  exact: true,
+  path: "/servers",
+  icon: "database"
 }];

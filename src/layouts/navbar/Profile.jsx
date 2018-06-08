@@ -27,7 +27,10 @@ const menu = (
 class Profile extends Component {
   render() {
     return (
-        <Dropdown overlay={menu} trigger={['click']}>
+        <Dropdown 
+        getPopupContainer={() => document.querySelector(".ant-layout-header .header-menu")} 
+        overlay={menu} 
+        trigger={['click']}>
           <div className="ant-dropdown-link">
             <Avatar icon="user" />
           </div>

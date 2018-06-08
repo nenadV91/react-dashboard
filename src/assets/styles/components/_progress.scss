@@ -1,0 +1,14 @@
+
+.ant-progress-circle-path {
+  stroke: $chart-main;
+}
+
+.ant-progress-circle-trail {
+  stroke: $chart-dark;
+}
+
+.ant-progress-circle .ant-progress-text {
+  color: $text-dark;
+  font-size: 16px;
+  font-family: $font-main;
+}

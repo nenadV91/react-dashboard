@@ -19,3 +19,12 @@
 -Sidebar                       Done
 
 
+-Servers                       Done
+  -Map                         Done
+  -Stats                       Done
+
+
+
+
+-Theme changer
+-Gradient Theme

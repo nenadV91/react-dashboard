@@ -1,0 +1,74 @@
+.server-item {
+  .up-time {
+    color: $chart-main;
+    margin-left: 5px;
+  }
+
+  .widget-title {
+    color: $text-medium;
+    padding-bottom: 5px;
+
+    &:not(.no-border) {
+      border-bottom: 1px solid $layout-light;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+
+
+    .content-item {
+      text-align: center;
+      margin-right: 25px;
+
+      .label {
+        color: $text-dark;
+        margin-right: 10px;
+        font-size: 10px;
+      }
+
+      .value {
+        color: $text-medium;
+
+        span:first-child {
+          font-size: 30px;
+          font-weight: 100;
+          font-family: $font-light;
+        }
+
+        span:last-child {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .recharts-tooltip-item-name {
+    font-size: 12px !important;
+    color: $text-dark !important;
+    font-family: $font-main !important;
+  }
+
+  .recharts-layer text {
+    font-size: 12px;
+  }
+}
+
+.back {
+  cursor: pointer;
+  color: $text-dark;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+}
