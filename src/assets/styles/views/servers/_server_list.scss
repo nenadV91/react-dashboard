@@ -5,6 +5,7 @@
     transition: all 0.2s ease-in;
     margin-bottom: 10px;
     cursor: pointer;
+    box-shadow: $main-shadow;
 
     &:hover {
       background: $layout-light;
