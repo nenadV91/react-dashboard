@@ -7,7 +7,7 @@ import LeftSidebar from './SidebarLeft';
 import RightSidebar from './SidebarRight';
 
 import routes from 'routes';
-import data from 'utils/sidebar_data'
+import { sidebar_data as data } from 'utils'
 
 const { Content } = Layout;
 

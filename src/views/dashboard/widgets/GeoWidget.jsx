@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { traffic_geo as data } from 'utils/dashboard_data';
 import { Widget } from 'components';
 import { Row, Col } from 'antd';
 
@@ -13,11 +12,11 @@ class GeoWidget extends Component {
         <Widget.Body>
           <Row gutter={16}>
             <Col sm={{span: 12}} lg={{span: 14}}>
-              <GeoChart data={data} />
+              <GeoChart data={this.props.data} />
             </Col>
 
             <Col sm={{span: 12}} lg={{span: 10}}>
-              <GeoStats data={data} />
+              <GeoStats data={this.props.data} />
             </Col>
           </Row>
         </Widget.Body>

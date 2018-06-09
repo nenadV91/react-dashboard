@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
-import { servers_data } from 'utils';
+import { servers_data as data } from 'utils';
 
 import Map from './Map';
 import Server from './Server';
@@ -13,7 +13,7 @@ class Index extends Component {
   }
 
   componentWillMount = () => {
-    this.setState({data: servers_data})
+    this.setState({data: data})
   }
 
   handleClick = server => {

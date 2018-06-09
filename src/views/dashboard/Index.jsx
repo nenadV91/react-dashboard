@@ -6,8 +6,9 @@ import {
   logs, 
   contacts,
   traffic_daily,
-  traffic_sources
-} from 'utils/dashboard_data';
+  traffic_sources,
+  traffic_geo
+} from 'utils/data/dashboard_data';
 
 import WelcomeWidget from './widgets/WelcomeWidget';
 import StatsWidget from './widgets/StatsWidget';
@@ -41,7 +42,7 @@ class Dashboard extends Component {
           </Col>
         </Row>
 
-        <GeoWidget />
+        <GeoWidget data={traffic_geo} />
 
         <Row gutter={16}>
           <Col md={{span: 10}}>
