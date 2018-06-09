@@ -8,9 +8,9 @@ $text-dark: darken($text-medium, 10%);
 $text-light: lighten($text-medium, 10%);
 
 $chart-main: #6FA5EC;
-$chart-dark: darken(#428fbf, 25%);
+$chart-dark: #3a3d52;
 
-$chart-medium: #6FA5EC;
+$chart-medium: #A0B0B6;
 $chart-light: #41C3F9;
 
 $yellow: #d5c723;
@@ -31,7 +31,7 @@ $main-border-color: rgba(255, 255, 255, 0.1);
 
 /*Map style*/
 /*Options: Siver Dark Night Blue*/
-$map-theme: dark;
+$map-theme: blue;
 
 :export {
   layoutDark: $layout-dark;

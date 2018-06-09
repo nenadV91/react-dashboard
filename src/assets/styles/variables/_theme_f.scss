@@ -8,10 +8,10 @@ $text-medium: #a0a9b1;
 $text-dark: darken($text-medium, 15%);
 $text-light: lighten($text-medium, 10%);
 
-$chart-main: #166e7d;
-$chart-dark: #5c8cab;
+$chart-main: #A0B0B6;
+$chart-dark: #536775;
 
-$chart-medium: #166e7d;
+$chart-medium: #A0B0B6;
 $chart-light: #41C3F9;
 
 $yellow: #d5c723;
@@ -32,7 +32,7 @@ $main-border-color: rgba(255, 255, 255, 0.1);
 
 /*Map style*/
 /*Options: Siver Dark Night Blue*/
-$map-theme: normal;
+$map-theme: night;
 
 :export {
   layoutDark: $layout-dark;
