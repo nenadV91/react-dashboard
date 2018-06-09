@@ -13,10 +13,6 @@ const menu = (
     
     <Menu.Divider />
 
-    <Menu.Item key={1} >
-      <span>2nd menu item</span>
-    </Menu.Item>
-
     <Menu.Item className="logout" key={2} >
       <Icon type="poweroff" />
       <span>Logout</span>

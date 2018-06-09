@@ -27,7 +27,7 @@ const CPU = props => {
             percent={cpu.used ? cpu.used : 0}
             strokeWidth={2}
             type="circle"  
-            width={100}/>
+            width={70}/>
         </ContentItem>
       </div>
     </Widget.Body>

@@ -26,7 +26,6 @@ class RightSidebar extends Component {
           <Tabs defaultActiveKey="1">
             <TabPane tab="Inbox" key="1"><Inbox data={data.inbox} /></TabPane>
             <TabPane tab="Alerts" key="2"><Alerts data={data.alerts} /></TabPane>
-            <TabPane tab="Chat" key="3">Content of Tab Pane 3</TabPane>
           </Tabs>
       </Menu>
     );

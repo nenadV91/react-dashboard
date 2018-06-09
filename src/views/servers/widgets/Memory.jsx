@@ -28,7 +28,7 @@ const Memory = props => {
             percent={memory.used ? percent : 0}
             strokeWidth={2}
             type="circle"  
-            width={100}/>
+            width={70}/>
         </ContentItem>
       </div>
     </Widget.Body>

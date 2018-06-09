@@ -7,6 +7,8 @@
   .widget-title {
     color: $text-medium;
     padding-bottom: 5px;
+    font-weight: 100;
+    font-family: $font-light;
 
     &:not(.no-border) {
       border-bottom: 1px solid $layout-light;
@@ -52,7 +54,7 @@
   }
 
   .recharts-layer text {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 

@@ -41,15 +41,15 @@ const Disk = props => {
         </ContentItem>
 
         <ContentItem style={{marginLeft: "auto"}}>
-          <PieChart width={110} height={110}>
+          <PieChart width={80} height={80}>
             <Pie isAnimationActive={false} 
             dataKey="value"
-            outerRadius={50}
+            outerRadius={35}
             fill={colors.chartMain}
             data={data} 
             labelLine={false}
-            cx={55}
-            cy={55}
+            cx={40}
+            cy={35}
             label={customLabel}
             stroke="transparent">
               <Cell fill={colors.chartDark}/>
