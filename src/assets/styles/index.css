@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #233440;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.03); }
   .ant-layout-header .trigger {
-    margin-left: 15px;
+    margin-left: 25px;
     cursor: pointer; }
   .ant-layout-header .header-menu {
     border-bottom: none;
@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6 {
       padding: 0 20px;
       white-space: nowrap;
       cursor: pointer; }
+  .ant-layout-header .logo {
+    height: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 15px;
+    width: 50px; }
 
 .main-sidebar {
   z-index: 2;
@@ -95,7 +100,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.03);
   position: fixed;
   min-height: 100vh;
-  padding-top: 54px; }
+  padding-top: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   .main-sidebar .ant-menu-dark {
     background: #233440; }
     .main-sidebar .ant-menu-dark .ant-menu-item-selected {

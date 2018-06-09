@@ -8,6 +8,8 @@ const { Sider } = Layout;
 
 class Sidebar extends Component {
   render() {
+    let route = "/" + this.props.route;
+
     return (
       <Sider
         className="main-sidebar"
@@ -16,8 +18,10 @@ class Sidebar extends Component {
         collapsible={true}
         trigger={null}
         collapsed={this.props.collapsed}>
-        <div className="logo" />
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={["/" + this.props.route]}>
+        <Menu 
+        defaultSelectedKeys={[route]} 
+        theme="dark" 
+        mode="inline" >
           {routes.map(route => {
             return <Menu.Item key={route.path}>
               <NavLink to={route.path}>

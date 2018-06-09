@@ -7,6 +7,10 @@
   min-height: 100vh;
   padding-top: 54px;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   .ant-menu-dark {
     background:  $layout-medium;
 

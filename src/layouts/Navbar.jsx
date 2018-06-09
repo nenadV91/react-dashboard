@@ -9,6 +9,8 @@ class Navbar extends Component {
     return (
       <Layout.Header>
         <Icon onClick={this.props.toggle} className="trigger" type="bars" />
+        {/*<div className="logo" />*/}
+        
         <HeaderMenu right>
           <HeaderMenu.Item onClick={() => this.props.toggleMenu()}>
             <Icon type="bell" />

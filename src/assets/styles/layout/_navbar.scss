@@ -17,7 +17,7 @@
   box-shadow: $main-shadow;
 
 	.trigger {
-		margin-left: 15px;
+		margin-left: 25px;
 		cursor: pointer;
 	}
 
@@ -30,5 +30,12 @@
       white-space: nowrap;
       cursor: pointer;
     }
+  }
+
+  .logo {
+    height: 16px;
+    background: rgba(255,255,255,.2);
+    margin: 15px;
+    width: 50px
   }
 }
