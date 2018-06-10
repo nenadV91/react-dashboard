@@ -1,7 +1,8 @@
 {
-  "name": "layout",
+  "name": "react-dashboard",
   "version": "0.1.0",
   "private": true,
+  "author": "Nenad Vracar",
   "homepage": "./",
   "dependencies": {
     "antd": "^3.5.4",
