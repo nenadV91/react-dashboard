@@ -3,7 +3,7 @@ Live previews: **[Light](https://nenadv91.github.io/react-dashboard/white/)**, *
 
 Built with create-react-app, ant-design, sass, recharts... Layout includes left and right sidebars, navbar and main content. Also includes three main views: dashboard, users and servers.
 
-![Preview](/previews/dashboard.png?raw=true "Dashboard Preview")
+![Preview](https://raw.githubusercontent.com/nenadV91/react-dashboard/gh-pages/previews/dashboard.png?raw=true "Dashboard Preview")
 
 
 ## Includes
